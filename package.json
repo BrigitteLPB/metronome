@@ -2,17 +2,19 @@
   "name": "bank_statement",
   "version": "1.0.0",
   "description": "implementation of tree object",
+  "type": "module",
   "main": "build/src/App.js",
   "scripts": {
-    "run": "cmd /C \"set \"NODE_PATH=./build\" && node .\"",
+    "run": "node .",
     "compile": "tsc",
     "watch": "tsc -w",
-    "test": "cmd /C \"set \"NODE_PATH=./build\" && jest\""
+    "test": "jest"
   },
   "author": "BrigitteLPB",
   "license": "ISC",
   "dependencies": {
-
+    "audic": "^3.0.0",
+    "fs": "^0.0.1-security"
   },
   "devDependencies": {
     "@types/jest": "^26.0.23",
