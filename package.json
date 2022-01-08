@@ -2,7 +2,6 @@
   "name": "bank_statement",
   "version": "1.0.0",
   "description": "implementation of tree object",
-  "type": "module",
   "main": "build/src/App.js",
   "scripts": {
     "run": "node .",
@@ -14,10 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "audic": "^3.0.0",
-    "fs": "^0.0.1-security"
+    "audio-play": "^2.3.1",
+    "fs": "^0.0.1-security",
+    "play-sound": "^1.1.5"
   },
   "devDependencies": {
+    "@types/audio-play": "^2.3.0",
     "@types/jest": "^26.0.23",
+    "@types/play-sound": "^1.1.0",
     "@types/typescript": "^2.0.0",
     "jest": "^27.3.1",
     "typescript": "^4.2.4"

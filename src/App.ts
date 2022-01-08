@@ -1,21 +1,6 @@
-import Audic from "audic";
 import { logUtil, PATH } from "./Constants.js";
+// import * as ps from "play-sound"
 
-let fn = async () => {
-	let audio = new Audic(`${PATH.RELATIVE_PATH_TO_ASSETS}/tac_mono.mp3`);
+logUtil.info("hello world !");
 
-	await logUtil.info("playing sound !");
-
-	await audio.play();
-
-	audio.addEventListener('ended', () => {
-		audio.destroy();
-	}, {
-		once: true,
-		capture: true
-	});
-}
-
-
-fn();
-
+import * as ap from "audio-play"
